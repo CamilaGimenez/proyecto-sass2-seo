@@ -1,0 +1,20 @@
+.formulario {
+  background-color: #949494;
+  color: #000000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 3px rgb(42, 42, 42);
+  font-size: map-get($tamaños, tamaño1);
+  font-family: "Roboto Mono", monospace;
+  .form-control {
+    font-size: map-get($tamaños, tamaño2);
+  }
+
+  .boton--formulario {
+    background-color: $color-secundario;
+    color: $color-primario;
+    &:hover {
+      color: $color-secundario;
+      background-color: $color-primario;
+    }
+  }
+}

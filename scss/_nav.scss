@@ -1,0 +1,18 @@
+.navbar {
+  .bi {
+    font-size: map-get($tamaños, tamaño5);
+    color: $color-primario;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    color: $color-primario;
+    background-color: $color-secundario;
+    margin: 5px;
+    border-radius: 10px;
+    &:hover {
+      color: $color-secundario;
+      background-color: $color-primario;
+    }
+  }
+}

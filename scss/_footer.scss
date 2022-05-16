@@ -1,0 +1,11 @@
+footer {
+  padding: map-get($tamaños, tamaño1);
+  .fila-footer {
+    border: 1px groove $color-primario;
+    margin-bottom: map-get($tamaños, tamaño1);
+    .fa-brands {
+      font-size: map-get($tamaños, tamaño5);
+      color: $color-primario;
+    }
+  }
+}

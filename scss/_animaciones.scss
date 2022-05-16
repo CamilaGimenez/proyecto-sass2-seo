@@ -1,0 +1,47 @@
+@keyframes animaBoton {
+    0% {
+      transform: translateY(0px);
+      background-color: #000000;
+      color: white;
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+  .imagen-producto:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  @keyframes trayectoria {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(-600px);
+    }
+    75% {
+      transform: translateX(-300px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  @keyframes trayectoria1 {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(600px);
+    }
+    75% {
+      transform: translateX(300px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
